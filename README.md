@@ -5,7 +5,7 @@ To produce a dot density map:
 
 ```python
 data = read_csv('data/bus.csv')
-geoplotlib.dot(data)
+geoplotlib.scatter(data)
 geoplotlib.show()
 ```
 
